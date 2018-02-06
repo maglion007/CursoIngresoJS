@@ -16,7 +16,7 @@ function Mostar()
 	alert(nombre)
 	*/
 	nombre=prompt("ingrese su nombre");
-	//var person = prompt("Please enter your name", "natalia natalia");
+	//var person = prompt("Please enter your name", "martin");
 	/*
 	alert(  "su nombre es:");
 	alert(   nombre)

@@ -1,5 +1,5 @@
 //Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
 function Mostar()
 { 
-	alert("hola js");
+	alert("esto funciona de maravila");
 }
