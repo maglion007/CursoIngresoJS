@@ -5,10 +5,23 @@ en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
 	var sueldo;
+    var sueldoconaumento;
 
-	sueldo= document.getElementById('sueldo').value;
+    sueldo= document.getElementById('sueldo').value;
 
-	var rdo = parseInt(sueldo) + (parseInt(sueldo) *10/100);
+    sueldo=parseInt(sueldo)
 
-	document.getElementById('resultado').value= rdo
+	sueldoconaumento= sueldo* 1.1;
+
+    
+    document.getElementById('resultado').value=sueldoconaumento
+
+
 }
+
+
+
+
+// 1*sueldo + sueldo 10/100
+// sueldo ( 1 + 10/100 ) el ultimo 0 se tacha tanto arriba como abajo
+// sueldo*(1.1)

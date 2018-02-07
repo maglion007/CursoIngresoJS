@@ -3,15 +3,21 @@ transformarlos a enteros (parseInt) y Sumarlos.
 Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	var numUno;
-	var numDos;
+	//var numeroUno "2";
+	//var numeroDos "3";
 
-	numUno= document.getElementById('numeroUno').value;
-	numDos= document.getElementById('numeroDos').value;
+	var resultado;
+	var numeroUno;
+	var numeroDos;
 
-	var rdo = parseInt(numUno, 10) + parseInt(numDos, 10);
+    numero=document.getElementById('numeroUno').value;
+    numero=document.getElementById('numeroDos').value;
 
-	alert("la suma es  "+ rdo);
+    numeroUno=parseInt(numeroUno);
+    numeroDos=parseInt(numeroDos);
+
+	resultado=numeroUno + numeroDos;
+	alert(resultado);
  
 }
 
