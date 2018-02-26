@@ -3,13 +3,11 @@ function Mostrar()
 	//Genero el número RANDOM entre 1 y 10 
 	
 	var numeroRandom;
-	numeroRandom=prompt("ingrese un número");
+	numeroRandom=(Math.floor(Math.random() * 9) +1);
 	
-	if(numeroRandom >0 && numeroRandom <11)
-	{
-		
-		alert("el numero es " + numeroRandom);
-	}
+
+	alert(numeroRandom);
+	
 
 
 }//FIN DE LA FUNCIÓN

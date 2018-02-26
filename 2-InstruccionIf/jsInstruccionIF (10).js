@@ -3,14 +3,14 @@ function Mostrar()
 	//Genero el número RANDOM entre 1 y 10 
 	
 	
-	var numRandom;
-	numRandom=prompt("ingrese una nota");
+	var notaRandom;
+	notaRandom=Math.floor(Math.random) *10 +1;
 
 	if (numRandom==9 || numRandom==10)
 	{
 		alert("excelente");
 	}
-else
+    else
 
 	if(numRandom>=4)
 	{
