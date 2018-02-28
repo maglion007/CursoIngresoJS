@@ -12,18 +12,10 @@ function CalcularPrecio ()
 {
  	 
  	 var cantidad;
- 	 var marca;
-     var precioFinal;
-     var precioUnit;
-     var precioBruto;
-     var porcentajeDesc;
-     var iibb;
-     
- 	 cantidad=document.getElementById('Cantidad').value;
- 	 marca=document.getElementById('Marca').value;
-
-
-    if(cantidad>5)
+ 	 
+     cantidad=document.getElementById('Cantidad').value;
+ 	 
+ 	 if(cantidad>5)
     {
 
        precioFinal=cantidad*35 *0.5;
