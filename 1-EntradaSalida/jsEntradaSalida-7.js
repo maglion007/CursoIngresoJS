@@ -31,7 +31,7 @@ function restar()
 	numUno= parseInt(numUno);
 	numDos= parseInt(numDos);
 
-	resultado= numUno + numDos
+	resultado= numUno - numDos
 
 	alert("la resta es  "+ resultado);
 }
@@ -48,6 +48,8 @@ function multiplicar()
 	numUno= parseInt(numUno);
 	numDos= parseInt(numDos);
 
+	resultado= numUno * numDos
+
 	alert("la multiplicacion es  "+ resultado);
 }
 
@@ -62,6 +64,8 @@ function dividir()
 
 	numUno= parseInt(numUno);
 	numDos= parseInt(numDos);
+
+	resultado= numUno / numDos
 
 	alert("la division es  "+ resultado);
 }

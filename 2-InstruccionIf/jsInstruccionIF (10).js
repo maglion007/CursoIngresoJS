@@ -3,23 +3,24 @@ function Mostrar()
 	//Genero el número RANDOM entre 1 y 10 
 	
 	
-	var notaRandom;
-	notaRandom=Math.floor(Math.random) *10 +1;
+	var numeroRandom;
+	numeroRandom=(Math.floor(Math.random() * 9) +1);
 
-	if (numRandom==9 || numRandom==10)
+	if (numeroRandom>8)
 	{
-		alert("excelente");
+		alert("excelente" + numeroRandom);
 	}
-    else
 
-	if(numRandom>=4)
+    else
+    if(numRandom>3)
 	{
-		alert("aprobo");
+	   
+	    alert("aprobo" + numeroRandom);
 	}	
 	else
-	if(numRandom<4)	
+	
 	{
-		alert("vamos, la proxima se puede");
+		alert("vamos, la proxima se puede" + numeroRandom);
 	}
 
 

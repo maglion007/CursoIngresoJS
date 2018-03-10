@@ -6,18 +6,19 @@ function sumar()
 	//var numeroUno "2";
 	//var numeroDos "3";
 
-	var resultado;
+	
 	var numeroUno;
 	var numeroDos;
+	var resultado;
 
-    numero=document.getElementById('numeroUno').value;
-    numero=document.getElementById('numeroDos').value;
+    numeroUno=document.getElementById('numeroUno').value;
+    numeroDos=document.getElementById('numeroDos').value;
 
     numeroUno=parseInt(numeroUno);
     numeroDos=parseInt(numeroDos);
 
 	resultado=numeroUno + numeroDos;
-	alert(resultado);
+	alert("la suma es  "+ resultado);
  
 }
 
